@@ -146,7 +146,6 @@ function Example(){
                 </tbody>
             </table>
             <Dialog onClose={handleClose} open={open}>
-                <DialogTitle>Subscribe</DialogTitle>
                 <DialogContent>
                     <DialogContentText>
                         スケジュール登録
@@ -162,8 +161,8 @@ function Example(){
                     </Select>
                 </DialogContent>
                 <DialogActions>
-                    <Button onClick={handleClose}>Cancel</Button>
-                    <Button href="/dashboard" onClick={createSchedule}>Subscribe</Button>
+                    <Button onClick={handleClose}>キャンセル</Button>
+                    <Button href="/dashboard" onClick={createSchedule}>登録</Button>
                 </DialogActions>
             </Dialog>
         </Fragment>
